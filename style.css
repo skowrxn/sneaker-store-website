@@ -29,19 +29,21 @@
     white-space: nowrap;
 }
 
-
-
 #page-content{
     width: 100%;
 }
 
 #welcome-text{
-    margin-left: -10px;
-    margin-right: -10px;
+   
     background-image: url("tlo-upscaled.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-   display: flex;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.title-container{
+    display: flex;
    justify-content: center;
    align-items: center;
    height: 100vh;
@@ -56,43 +58,55 @@
 }
 
 #welcome-subtitle{
-
     font-family: 'Jockey One';
     font-size: 2vw;
-    
-
+    text-decoration:none;
+    margin-top: -40px;
     color:white;
 }
 
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 #about-us-title{
-    text-align: center;
     font-family: 'Jockey One';
-    font-size: 70px;
-    top: 125%;
-    transform: translate(-50%, -50%);
+    font-size: 3.5vw;
+    margin-top: 5vw;;
     color:black;
 }
 
 #about-us-content{
-    position: absolute;
     color: black;
     width: 500px;
-    height: 500px;
-    top: 140%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    font-family: Jost;
+    margin-left: 12vw;
+    font-family: 'Jost', sans-serif;
+    margin-top: 20px;
     font-size: 24px;
 }
 
-.about-us::before{
-    content: "";
-    display: table;
-    clear: both;
+#about-us-image{
+    margin-right: 12vw;
+    margin-left: 5vw;
+    margin-top: 20px;
+    width: 33%;
+    height: 33%;
 }
 
-.about-us::after{
-    content: "";
-    display: table;
-    clear: both;
+#about-us-href{
+    font-family: 'Jockey One';
+    font-size: 1.25vw;
+    text-decoration:none;
+    color: #000000;
+    padding-top: 310px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-content: center;
 }
