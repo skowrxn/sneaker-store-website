@@ -98,15 +98,119 @@
 
 #about-us-href{
     font-family: 'Jockey One';
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     text-decoration:none;
     color: #000000;
     padding-top: 310px;
 }
 
-ul{
+#about-us-divide{
     display: flex;
     list-style: none;
     justify-content: space-between;
     align-content: center;
+}
+
+#example-pairs-title{
+    font-family: 'Jockey One';
+    font-size: 4vw;
+    color:black;
+}
+
+#example-pairs-subtitle{
+    font-family: 'Jockey One';
+    font-size: 1.75vw;
+    text-decoration:none;
+    margin-top: -40px;
+    color:black;
+}
+
+#example-pairs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#example-pairs-header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sneaker-offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 23vw;
+    height: 28vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    margin-top: 1.25vw;
+    margin-bottom: 1.25vw;
+    -webkit-box-shadow: 2px 2px 17px -5px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 17px -5px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 17px -5px rgba(0, 0, 0, 1); 
+}
+
+#sneaker-offer-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#sneaker-offer-title{
+    font-family: 'Jockey One';
+    font-size: 1.5vw;
+    margin-bottom: -0.5vw;
+    margin-top: -6vw;
+    color:black;
+}
+
+#sneaker-offer-footer{
+    margin-top: -2vw;
+    margin-bottom: -6vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#price-container{
+    background-color: white;
+    height: 3.5vw;
+    width: 9vw;
+    padding-left: 1vw;
+    margin-right: 1vw;
+    -webkit-box-shadow: 5px 5px 20px -4px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 5px 5px 20px -4px rgba(66, 68, 90, 1);
+    box-shadow: 5px 5px 20px -4px rgba(66, 68, 90, 1);
+}
+
+#price-tag{
+    font-family: 'Jockey One';
+    font-size: 2.5vw;
+    margin-top: 0;
+    margin-right: 1vw;
+    justify-content: end;
+}
+
+#add-to-basket{
+    background-color: #000;
+    width: 3.5vw;
+    height: 3.5vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#sneaker-preview{
+    width: 20vw;
+    height: 20vw;
+}
+
+#basket{
+    width: 2.5vw;
+    height: 2.5vw;
 }
