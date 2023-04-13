@@ -149,7 +149,7 @@
     margin-left: 2.5vw;
     margin-right: 2.5vw;
     margin-top: 1.25vw;
-    margin-bottom: 1.25vw;
+    margin-bottom: 4vw;
     -webkit-box-shadow: 2px 2px 17px -5px rgba(0, 0, 0, 1);
     -moz-box-shadow: 2px 2px 17px -5px rgba(0, 0, 0, 1);
     box-shadow: 2px 2px 17px -5px rgba(0, 0, 0, 1); 
@@ -213,4 +213,38 @@
 #basket{
     width: 2.5vw;
     height: 2.5vw;
+}
+
+#footer{
+    background-color: #233027;
+    height: 15vw;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.footer-title{
+    color: white;
+    font-family: 'Jockey One';
+    margin-bottom: 1vw;
+    font-size: 1.5vw;
+}
+
+.footer-content{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 1vw;
+    margin: 0.2vw;
+}
+
+.footer-icon{
+    width: 1vw;
+    height: 1vw;
+    color: white;
 }
