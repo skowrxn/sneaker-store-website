@@ -38,8 +38,7 @@
     background-image: url("tlo-upscaled.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: -8px;
-    margin-right: -8px;
+  
 }
 
 .title-container{
@@ -126,6 +125,7 @@
 
 #example-pairs-subtitle{
     font-family: 'Jockey One';
+    margin-bottom: 1vw;
     font-size: 1.75vw;
     text-decoration:none;
     margin-top: -40px;
@@ -196,7 +196,7 @@
     font-family: 'Jockey One';
     font-size: 1.5vw;
     margin-bottom: -0.5vw;
-    margin-top: -6vw;
+    margin-top: -7vw;
     color:black;
 }
 
@@ -211,7 +211,7 @@
 
 #sneaker-offer-footer{
     margin-top: -3vw;
-    margin-bottom: -9vw;
+    margin-bottom: -8vw;
     display: flex;
     flex-direction: row;
 }
@@ -236,16 +236,8 @@
 }
 
 
-#example-sneaker-offer-title{
-    font-family: 'Jockey One';
-    font-size: 1.5vw;
-    margin-bottom: -0.5vw;
-    margin-top: -6vw;
-    color:black;
-}
-
-#example-sneaker-offer-footer{
-    margin-top: -2vw;
+#sneaker-example-offer-footer{
+    margin-top: 0vw;
     margin-bottom: -6vw;
     display: flex;
     flex-direction: row;
@@ -290,13 +282,14 @@
 
 
 #sneaker-example-preview{
-    width: 16vw;
-    height: 16vw;
+    width: 18vw;
+    height: 18vw;
 }
 
 #sneaker-preview{
-    width: 16vw;
-    height: 16vw;
+    width: 15vw;
+    height: 15vw;
+    margin-bottom: 1vw;
 }
 
 #example-basket{
@@ -312,16 +305,12 @@
 #footer{
     background-color: #233027;
     height: 15vw;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -8px;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 
 .footer-title{
     color: white;
@@ -362,4 +351,33 @@
     text-decoration: none;
     color: black;
     margin-top: -2vw;
+}
+
+#contact-ui{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+#contact-image{
+    width: 42vw;
+    height: 50vw;
+    object-fit: cover;
+}
+
+#contact-title{
+    font-family: 'Jockey One';
+    font-size: 3.2vw;
+}
+
+#contact-form-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body{
+    margin: 0;
 }
