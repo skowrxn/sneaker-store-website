@@ -27,8 +27,25 @@
         <img id="contact-image" src="grafika.jpeg">
 
         <div id="contact-form-content">
-            <h1 id="contact-title">Skontaktuj się z nami</h1>
-            <a href="index.html" id="back-to-homepage">Powrót do strony głównej →</a>
+            
+            <div id="contact-header">
+                <h1 id="contact-title">Skontaktuj się z nami</h1>
+                <a href="index.html" id="back-to-homepage">Powrót do strony głównej →</a>
+            </div>
+
+            <form id="newsletter-form" action="/action_page.php">
+                <div class="form-inputs">
+                    <input style="margin-right: 0.8vw;" class="small-input styled-input" type="text" id="name" name="name" placeholder="Imię"><br>
+                    <input class="small-input styled-input" type="text" id="surname" name="surname" placeholder="Nazwisko">
+                </div>
+                <div class="form-inputs">
+                    <input style="margin-right: 0.8vw;" class="small-input styled-input" type="text" id="email" name="email" placeholder="Adres E-mail"><br>
+                    <input  class="small-input styled-input" type="text" id="phone" name="phone" placeholder="Numer telefonu">
+                </div>
+                <textarea class="styled-input" id="message" type="text" id="message" name="message" placeholder="Twoja wiadomość..."></textarea> 
+                <br>
+                <input id="submit" type="submit" value="WYŚLIJ">  
+            </form>
         </div>
     </section>
 
@@ -36,7 +53,6 @@
         <div id="footer-contact">
             <h2 class="footer-title">Sneaker Stajnia Kraków</h2>
             <div id="kontakt-content">
-                
                 <h4 class="footer-content">Mokotowska 24, 00-553 Kraków</h4>
                 <a class="footer-content"> pon. - sob. 11:00 - 19:00</a><br>
                 <a class="footer-content">+48 536 848 534</a><br>
